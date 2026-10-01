@@ -13,5 +13,5 @@ jobs:
     with:
       environment: release
       github-releases: true
-      tag-template: '{name}_v{version}'
+      tag-template: v{version}
     secrets: inherit
