@@ -1,8 +1,16 @@
 # Change Log - @langri-sha/babel-preset
 
-<!-- This log was last generated on Wed, 30 Sep 2026 11:26:36 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 01 Oct 2026 02:39:33 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.6.8
+
+Thu, 01 Oct 2026 02:39:33 GMT
+
+### Patches
+
+- Publish from langri-sha/babel-preset, which now owns this package and its history (filip.dupanovic@gmail.com)
 
 ## 0.6.7
 

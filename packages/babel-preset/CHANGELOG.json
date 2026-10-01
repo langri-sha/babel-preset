@@ -2,6 +2,21 @@
   "name": "@langri-sha/babel-preset",
   "entries": [
     {
+      "date": "Thu, 01 Oct 2026 02:39:33 GMT",
+      "version": "0.6.8",
+      "tag": "@langri-sha/babel-preset_v0.6.8",
+      "comments": {
+        "patch": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/babel-preset",
+            "commit": "00eea01e839fa5382b9eb8ae93b992a58c264e31",
+            "comment": "Publish from langri-sha/babel-preset, which now owns this package and its history"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 30 Sep 2026 11:26:36 GMT",
       "version": "0.6.7",
       "tag": "@langri-sha/babel-preset_v0.6.7",
