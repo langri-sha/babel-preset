@@ -1,6 +1,6 @@
 import type { InputOptions, PluginItem, PresetItem } from '@babel/core'
 import * as babel from '@babel/core'
-import monorepo from '@langri-sha/monorepo'
+import monorepo from 'monorepo-resolve'
 import * as R from 'ramda'
 
 export type Preset = {

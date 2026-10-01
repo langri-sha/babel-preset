@@ -50,7 +50,7 @@ const project = new Project({
   prettier: {},
   pnpmWorkspace: {
     packages: ['packages/*'],
-    minimumReleaseAgeExclude: ['@langri-sha/*'],
+    minimumReleaseAgeExclude: ['@langri-sha/*', 'monorepo-resolve'],
   },
   readme: {
     filename: 'readme.md',
@@ -61,11 +61,11 @@ const project = new Project({
         description: 'Update our own packages together',
         groupName: 'langri-sha projen toolchain',
         groupSlug: 'langri-sha-projen',
-        matchPackageNames: ['@langri-sha/**'],
+        matchPackageNames: ['@langri-sha/**', 'monorepo-resolve'],
       },
       {
         description: 'Install our own packages without waiting them out',
-        matchPackageNames: ['@langri-sha/**'],
+        matchPackageNames: ['@langri-sha/**', 'monorepo-resolve'],
         minimumReleaseAge: null,
       },
       {
@@ -169,7 +169,7 @@ project.addSubproject(
       ...pkg,
       copyrightYear: '2024',
       type: 'module',
-      deps: ['@langri-sha/monorepo@0.5.18', 'ramda@0.32.0'],
+      deps: ['monorepo-resolve@0.5.19', 'ramda@0.32.0'],
       devDeps: [
         '@babel/core@8.0.6',
         '@langri-sha/tsconfig@1.0.1',
