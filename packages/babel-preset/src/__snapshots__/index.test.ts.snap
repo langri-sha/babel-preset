@@ -1,0 +1,148 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`default preset plugins > development environment 1`] = `
+[
+  [
+    "proposal-export-default-from",
+    {},
+  ],
+  [
+    "@emotion",
+    {},
+  ],
+  [
+    "transform-typescript",
+    {
+      "allowNamespaces": true,
+      "disallowAmbiguousJSXLike": false,
+      "jsxPragma": "React",
+      "jsxPragmaFrag": "React.Fragment",
+      "onlyRemoveTypeImports": true,
+      "optimizeConstEnums": false,
+    },
+  ],
+  [
+    "transform-react-jsx/development",
+    {
+      "importSource": "react",
+      "pragma": undefined,
+      "pragmaFrag": undefined,
+      "pure": undefined,
+      "runtime": "automatic",
+      "sourceSelf": false,
+      "throwIfNamespace": true,
+    },
+  ],
+  [
+    "transform-react-display-name",
+    {},
+  ],
+  [
+    "transform-react-pure-annotations",
+    {},
+  ],
+  [
+    "transform-explicit-resource-management",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-duplicate-named-capturing-groups-regex",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-regexp-modifiers",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-unicode-sets-regex",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-export-namespace-from",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+]
+`;
+
+exports[`default preset plugins > production environment 1`] = `
+[
+  [
+    "proposal-export-default-from",
+    {},
+  ],
+  [
+    "@emotion",
+    {},
+  ],
+  [
+    "transform-typescript",
+    {
+      "allowNamespaces": true,
+      "disallowAmbiguousJSXLike": false,
+      "jsxPragma": "React",
+      "jsxPragmaFrag": "React.Fragment",
+      "onlyRemoveTypeImports": true,
+      "optimizeConstEnums": false,
+    },
+  ],
+  [
+    "transform-react-jsx",
+    {
+      "importSource": "react",
+      "pragma": undefined,
+      "pragmaFrag": undefined,
+      "pure": undefined,
+      "runtime": "automatic",
+      "throwIfNamespace": true,
+    },
+  ],
+  [
+    "transform-react-display-name",
+    {},
+  ],
+  [
+    "transform-react-pure-annotations",
+    {},
+  ],
+  [
+    "transform-explicit-resource-management",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-duplicate-named-capturing-groups-regex",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-regexp-modifiers",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-unicode-sets-regex",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+  [
+    "transform-export-namespace-from",
+    {
+      "useBuiltIns": false,
+    },
+  ],
+]
+`;
