@@ -22,7 +22,7 @@
     "prepublishOnly": "rm -rf dist; tsc --project tsconfig.build.json"
   },
   "dependencies": {
-    "@langri-sha/monorepo": "0.5.18",
+    "monorepo-resolve": "0.5.19",
     "ramda": "0.32.0"
   },
   "devDependencies": {
