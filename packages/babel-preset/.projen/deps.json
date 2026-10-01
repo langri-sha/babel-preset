@@ -1,18 +1,23 @@
 {
   "dependencies": [
     {
+      "name": "@babel/core",
+      "version": "8.0.6",
+      "type": "build"
+    },
+    {
       "name": "@langri-sha/babel-test",
       "version": "workspace:*",
       "type": "build"
     },
     {
       "name": "@langri-sha/tsconfig",
-      "version": "*",
+      "version": "1.0.1",
       "type": "build"
     },
     {
       "name": "@langri-sha/vitest",
-      "version": "workspace:*",
+      "version": "0.2.0",
       "type": "build"
     },
     {
