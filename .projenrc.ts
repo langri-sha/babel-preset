@@ -158,9 +158,6 @@ project.addSubproject(
   {
     name: '@langri-sha/babel-test',
     outdir: path.join('packages', 'babel-test'),
-    npmIgnore: {
-      ignorePatterns: ['fixtures/'],
-    },
     readme: {
       filename: 'readme.md',
     },
@@ -181,7 +178,7 @@ project.addSubproject(
   },
   subproject,
   test,
-  publish,
+  (project) => project.package?.addField('private', true),
 )
 
 project.synth()

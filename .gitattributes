@@ -27,7 +27,6 @@
 /packages/babel-preset/tsconfig.json linguist-generated
 /packages/babel-test/.gitattributes linguist-generated
 /packages/babel-test/.gitignore linguist-generated
-/packages/babel-test/.npmignore linguist-generated
 /packages/babel-test/.projen/** linguist-generated
 /packages/babel-test/.projen/deps.json linguist-generated
 /packages/babel-test/.projen/files.json linguist-generated
@@ -35,7 +34,6 @@
 /packages/babel-test/license linguist-generated
 /packages/babel-test/package.json linguist-generated
 /packages/babel-test/pnpm-lock.yaml linguist-generated
-/packages/babel-test/tsconfig.build.json linguist-generated
 /packages/babel-test/tsconfig.json linguist-generated
 /pnpm-lock.yaml linguist-generated
 /pnpm-workspace.yaml linguist-generated
