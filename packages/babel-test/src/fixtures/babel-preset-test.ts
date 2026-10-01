@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url'
+
 import type { ConfigAPI } from '@babel/core'
 
 const config = (
@@ -6,7 +8,7 @@ const config = (
 ): { plugins: Array<Array<unknown>> } => ({
   plugins: [
     [
-      require.resolve('./babel-plugin-test'),
+      fileURLToPath(new URL('./babel-plugin-test.ts', import.meta.url)),
       { foobar: 'quuxnorf', ...options },
     ],
   ],
