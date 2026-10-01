@@ -36,10 +36,11 @@ it — `packages/babel-preset/src/`, its readme, `package.json` and
 is private, so beachball skips it and it never needs one.
 
 The Release workflow calls the shared Packages workflow with
-`tag-template: '{name}_v{version}'`, which tags each published version, e.g.
-`@langri-sha/babel-preset_v0.6.8`, and `github-releases: true`, which creates a
-GitHub release with generated notes for it. Beachball's own `gitTags` stays off,
-since the workflow creates the same tags itself.
+`tag-template: v{version}`, which tags each published version, e.g. `v0.6.8`,
+and `github-releases: true`, which creates a GitHub release with generated notes
+for it. Only babel-preset publishes, so its version alone names the tag; the
+workflow skips private packages. Beachball's own `gitTags` stays off, since it
+would name the tags `@langri-sha/babel-preset_v0.6.8`.
 
 `main` points at `src/index.js` in the repository, and `publishConfig` swaps
 `main` and `types` for `dist/`, which `prepublishOnly` builds. The tarball ships
