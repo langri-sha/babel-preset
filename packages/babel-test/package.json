@@ -2,11 +2,11 @@
   "name": "@langri-sha/babel-test",
   "version": "0.7.6",
   "bugs": {
-    "url": "https://github.com/langri-sha/projen/issues"
+    "url": "https://github.com/langri-sha/babel-preset/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/langri-sha/projen.git",
+    "url": "git+https://github.com/langri-sha/babel-preset.git",
     "directory": "packages/babel-test"
   },
   "license": "MIT",
@@ -22,12 +22,13 @@
     "prepublishOnly": "rm -rf dist; tsc --project tsconfig.build.json"
   },
   "dependencies": {
-    "@langri-sha/monorepo": "workspace:*",
+    "@langri-sha/monorepo": "0.5.18",
     "ramda": "0.32.0"
   },
   "devDependencies": {
-    "@langri-sha/tsconfig": "workspace:*",
-    "@langri-sha/vitest": "workspace:*",
+    "@babel/core": "8.0.6",
+    "@langri-sha/tsconfig": "1.0.1",
+    "@langri-sha/vitest": "0.2.0",
     "@types/node": "24.19.0",
     "@types/ramda": "0.32.0"
   },
