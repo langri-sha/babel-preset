@@ -9,13 +9,10 @@ Provides convenience helpers for inspecting and testing your [Babel] preset.
 
 ## Usage
 
-Install related dependencies:
+It is private to this workspace, where `@langri-sha/babel-preset` takes it as
+`workspace:*`, and no longer published to npm.
 
-```sh
-npm install -D @babel/core @langri-sha/babel-test
-```
-
-Then load the preset plugins:
+Load the preset plugins:
 
 ```js
 // Load preset plugins.

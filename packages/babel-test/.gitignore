@@ -7,6 +7,4 @@ node_modules/
 !/package.json
 !/tsconfig.json
 !/license
-!/.npmignore
-!/tsconfig.build.json
 !/.projenrc.ts
