@@ -31,7 +31,7 @@ const project = new Project({
       '@langri-sha/lint-staged@0.9.8',
       '@langri-sha/prettier@0.4.9',
       '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@1.0.2',
+      '@langri-sha/tsconfig@1.1.0',
       '@types/node@24.19.0',
       'vitest@5.0.2',
     ],
@@ -143,7 +143,7 @@ project.addSubproject(
       devDeps: [
         '@babel/core@8.0.6',
         '@langri-sha/babel-test@workspace:*',
-        '@langri-sha/tsconfig@1.0.2',
+        '@langri-sha/tsconfig@1.1.0',
         '@types/node@24.19.0',
       ],
       peerDeps: ['@babel/core@^8.0.0'],
@@ -169,7 +169,7 @@ project.addSubproject(
       deps: ['monorepo-resolve@0.5.19', 'ramda@0.32.0'],
       devDeps: [
         '@babel/core@8.0.6',
-        '@langri-sha/tsconfig@1.0.2',
+        '@langri-sha/tsconfig@1.1.0',
         '@types/node@24.19.0',
         '@types/ramda@0.32.0',
       ],
