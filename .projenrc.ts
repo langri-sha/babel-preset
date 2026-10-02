@@ -36,7 +36,11 @@ const project = new Project({
       'vitest@5.0.2',
     ],
   },
-  beachball: {},
+  beachball: {
+    config: {
+      ignorePatterns: ['.gitignore', 'tsconfig.json', '**/.projen/**'],
+    },
+  },
   codeowners: {
     '*': '@langri-sha',
   },
