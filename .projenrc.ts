@@ -27,9 +27,9 @@ const project = new Project({
     type: 'module',
 
     devDeps: [
-      '@langri-sha/eslint-config@0.9.17',
-      '@langri-sha/lint-staged@0.9.8',
-      '@langri-sha/prettier@0.4.9',
+      '@langri-sha/eslint-config@0.9.18',
+      '@langri-sha/lint-staged@0.9.9',
+      '@langri-sha/prettier@0.4.10',
       '@langri-sha/projen-project@*',
       '@langri-sha/tsconfig@1.1.0',
       '@types/node@24.19.0',
@@ -99,7 +99,7 @@ const subproject = (project: Project) => {
 
 const test = (project: Project) => {
   project.npmIgnore?.exclude('*.test.*', '__snapshots__/')
-  project.package?.addDevDeps('@langri-sha/vitest@0.2.1')
+  project.package?.addDevDeps('@langri-sha/vitest@0.2.2')
 }
 
 const publish = (project: Project) => {
