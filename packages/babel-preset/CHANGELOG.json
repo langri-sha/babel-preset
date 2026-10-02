@@ -2,6 +2,27 @@
   "name": "@langri-sha/babel-preset",
   "entries": [
     {
+      "date": "Fri, 02 Oct 2026 20:05:47 GMT",
+      "version": "0.6.9",
+      "tag": "@langri-sha/babel-preset_v0.6.9",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/babel-preset",
+            "commit": "15d341bdbd34f41fe1f62f18681c411137fff9d7",
+            "comment": "Update dependency @langri-sha/tsconfig to v1.1.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/babel-preset",
+            "commit": "15d341bdbd34f41fe1f62f18681c411137fff9d7",
+            "comment": "Update langri-sha projen toolchain"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 01 Oct 2026 02:39:33 GMT",
       "version": "0.6.8",
       "tag": "@langri-sha/babel-preset_v0.6.8",
