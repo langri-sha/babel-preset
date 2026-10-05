@@ -1,6 +1,6 @@
 import type { InputOptions, PluginItem, PresetItem } from '@babel/core'
 import * as babel from '@babel/core'
-import monorepo from 'monorepo-resolve'
+import { resolve } from 'monorepo-resolve'
 import * as R from 'ramda'
 
 export type Preset = {
@@ -45,7 +45,7 @@ const transformPaths = ({
   key,
   options,
 }: ResolvedPlugin): [string, Record<string, unknown>] => [
-  (key ?? '').replace(monorepo.root, '<WORKSPACE>'),
+  (key ?? '').replace(resolve(), '<WORKSPACE>'),
   options as Record<string, unknown>,
 ]
 

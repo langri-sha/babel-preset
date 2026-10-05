@@ -32,7 +32,7 @@
     },
     {
       "name": "monorepo-resolve",
-      "version": "0.5.19",
+      "version": "1.0.0",
       "type": "runtime"
     },
     {
