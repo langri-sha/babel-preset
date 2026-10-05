@@ -170,7 +170,7 @@ project.addSubproject(
       ...pkg,
       copyrightYear: '2024',
       type: 'module',
-      deps: ['monorepo-resolve@0.5.19', 'ramda@0.32.0'],
+      deps: ['monorepo-resolve@1.0.0', 'ramda@0.32.0'],
       devDeps: [
         '@babel/core@8.0.6',
         '@langri-sha/tsconfig@1.1.0',
