@@ -56,8 +56,10 @@ and the Renovate group.
 
 ## Tests
 
-Every test has been skipped since the packages moved from Jest to Vitest in
-2024; langri-sha/babel-preset#2 tracks enabling them again.
+Vitest runs `packages/babel-test`'s own tests and the preset snapshot test in
+`packages/babel-preset/src/index.test.ts`, which loads the preset's plugins
+through `loadPresetPlugins`. Its snapshots live in
+`packages/babel-preset/src/__snapshots__/`.
 
 ## Provenance
 
