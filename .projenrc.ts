@@ -135,6 +135,8 @@ project.addSubproject(
     package: {
       ...pkg,
       copyrightYear: '2021',
+      description:
+        'Babel preset for modern browsers and runtimes, with support for TypeScript, Emotion and React.',
       entrypoint: 'src/index.js',
       deps: [
         '@babel/plugin-proposal-export-default-from@8.0.1',

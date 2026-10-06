@@ -1,6 +1,7 @@
 {
   "name": "@langri-sha/babel-preset",
   "version": "0.6.9",
+  "description": "Babel preset for modern browsers and runtimes, with support for TypeScript, Emotion and React.",
   "bugs": {
     "url": "https://github.com/langri-sha/babel-preset/issues"
   },
