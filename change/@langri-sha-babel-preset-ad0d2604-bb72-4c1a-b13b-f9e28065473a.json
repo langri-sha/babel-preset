@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Publish a plain-text description instead of the readme's first paragraph",
+  "packageName": "@langri-sha/babel-preset",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
