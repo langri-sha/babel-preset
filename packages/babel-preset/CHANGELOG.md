@@ -1,8 +1,18 @@
 # Change Log - @langri-sha/babel-preset
 
-<!-- This log was last generated on Fri, 02 Oct 2026 20:05:47 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 07 Oct 2026 10:15:38 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.6.10
+
+Wed, 07 Oct 2026 10:15:38 GMT
+
+### Patches
+
+- Update dependency @types/node to v24.19.1
+- Publish a plain-text description instead of the readme's first paragraph (filip.dupanovic@gmail.com)
+- Update langri-sha projen toolchain
 
 ## 0.6.9
 
