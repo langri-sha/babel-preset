@@ -27,11 +27,11 @@ const project = new Project({
     type: 'module',
 
     devDeps: [
-      '@langri-sha/eslint-config@0.9.18',
-      '@langri-sha/lint-staged@0.9.9',
-      '@langri-sha/prettier@0.4.10',
+      '@langri-sha/eslint-config@0.9.19',
+      '@langri-sha/lint-staged@0.9.10',
+      '@langri-sha/prettier@0.4.11',
       '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@1.1.0',
+      '@langri-sha/tsconfig@1.1.1',
       '@types/node@24.19.1',
       'vitest@5.0.3',
     ],
@@ -99,7 +99,7 @@ const subproject = (project: Project) => {
 
 const test = (project: Project) => {
   project.npmIgnore?.exclude('*.test.*', '__snapshots__/')
-  project.package?.addDevDeps('@langri-sha/vitest@0.2.2')
+  project.package?.addDevDeps('@langri-sha/vitest@0.2.3')
 }
 
 const publish = (project: Project) => {
@@ -149,7 +149,7 @@ project.addSubproject(
       devDeps: [
         '@babel/core@8.0.6',
         '@langri-sha/babel-test@workspace:*',
-        '@langri-sha/tsconfig@1.1.0',
+        '@langri-sha/tsconfig@1.1.1',
         '@types/node@24.19.1',
       ],
       peerDeps: ['@babel/core@^8.0.0'],
@@ -172,10 +172,10 @@ project.addSubproject(
       ...pkg,
       copyrightYear: '2024',
       type: 'module',
-      deps: ['monorepo-resolve@1.0.0', 'ramda@0.32.0'],
+      deps: ['monorepo-resolve@1.0.1', 'ramda@0.32.0'],
       devDeps: [
         '@babel/core@8.0.6',
-        '@langri-sha/tsconfig@1.1.0',
+        '@langri-sha/tsconfig@1.1.1',
         '@types/node@24.19.1',
         '@types/ramda@0.32.0',
       ],
