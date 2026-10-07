@@ -21,13 +21,13 @@
   "main": "src/index.ts",
   "scripts": {},
   "dependencies": {
-    "monorepo-resolve": "1.0.0",
+    "monorepo-resolve": "1.0.1",
     "ramda": "0.32.0"
   },
   "devDependencies": {
     "@babel/core": "8.0.6",
-    "@langri-sha/tsconfig": "1.1.0",
-    "@langri-sha/vitest": "0.2.2",
+    "@langri-sha/tsconfig": "1.1.1",
+    "@langri-sha/vitest": "0.2.3",
     "@types/node": "24.19.1",
     "@types/ramda": "0.32.0"
   },
