@@ -140,14 +140,14 @@ project.addSubproject(
       entrypoint: 'src/index.js',
       deps: [
         '@babel/plugin-proposal-export-default-from@8.0.1',
-        '@babel/preset-env@8.0.6',
+        '@babel/preset-env@8.0.7',
         '@babel/preset-react@8.0.1',
-        '@babel/preset-typescript@8.0.1',
+        '@babel/preset-typescript@8.0.7',
         '@babel/register@8.0.6',
         '@emotion/babel-plugin@11.13.5',
       ],
       devDeps: [
-        '@babel/core@8.0.6',
+        '@babel/core@8.0.7',
         '@langri-sha/babel-test@workspace:*',
         '@langri-sha/tsconfig@1.1.1',
         '@types/node@24.19.1',
@@ -174,7 +174,7 @@ project.addSubproject(
       type: 'module',
       deps: ['monorepo-resolve@1.0.1', 'ramda@0.32.0'],
       devDeps: [
-        '@babel/core@8.0.6',
+        '@babel/core@8.0.7',
         '@langri-sha/tsconfig@1.1.1',
         '@types/node@24.19.1',
         '@types/ramda@0.32.0',
