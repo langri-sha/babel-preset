@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@babel/core",
-      "version": "8.0.6",
+      "version": "8.0.7",
       "type": "build"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "@babel/preset-env",
-      "version": "8.0.6",
+      "version": "8.0.7",
       "type": "runtime"
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "@babel/preset-typescript",
-      "version": "8.0.1",
+      "version": "8.0.7",
       "type": "runtime"
     },
     {
