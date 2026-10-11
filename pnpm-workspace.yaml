@@ -10,6 +10,7 @@ packages:
 minimumReleaseAgeExclude:
   - '@langri-sha/*'
   - monorepo-resolve
+  - '@langri-sha/projen-project'
   - projen-babel-config
   - projen-beachball
   - projen-cargo
