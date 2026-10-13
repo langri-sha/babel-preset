@@ -24,6 +24,7 @@
 /packages/babel-preset/license linguist-generated
 /packages/babel-preset/package.json linguist-generated
 /packages/babel-preset/pnpm-lock.yaml linguist-generated
+/packages/babel-preset/pnpm-workspace.yaml linguist-generated
 /packages/babel-preset/tsconfig.build.json linguist-generated
 /packages/babel-preset/tsconfig.json linguist-generated
 /packages/babel-test/.gitattributes linguist-generated
@@ -35,9 +36,10 @@
 /packages/babel-test/license linguist-generated
 /packages/babel-test/package.json linguist-generated
 /packages/babel-test/pnpm-lock.yaml linguist-generated
+/packages/babel-test/pnpm-workspace.yaml linguist-generated
 /packages/babel-test/tsconfig.json linguist-generated
 /pnpm-lock.yaml linguist-generated
 /pnpm-workspace.yaml linguist-generated
 /prettier.config.js linguist-generated
-/renovate.json5 linguist-generated
-/tsconfig.json linguist-generated
+/renovate.json5 linguist-generated linguist-language=JSON-with-Comments
+/tsconfig.json linguist-generated linguist-language=JSON-with-Comments
