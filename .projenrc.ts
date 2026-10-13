@@ -64,22 +64,14 @@ const project = new Project({
     filename: 'readme.md',
   },
   renovate: {
+    extends: ['github>langri-sha/renovate-config'],
     packageRules: [
       {
-        description: 'Update our own packages together',
+        description:
+          'Update monorepo-resolve with our own packages and install it without waiting it out',
         groupName: 'langri-sha projen toolchain',
         groupSlug: 'langri-sha-projen',
-        matchPackageNames: ['@langri-sha/**', 'monorepo-resolve'],
-      },
-      {
-        description: 'Install our own packages without waiting them out',
-        matchPackageNames: ['@langri-sha/**', 'monorepo-resolve'],
-        minimumReleaseAge: null,
-      },
-      {
-        description:
-          'Install our own GitHub Actions and Terraform modules without waiting them out',
-        matchPackageNames: ['langri-sha/**'],
+        matchPackageNames: ['monorepo-resolve'],
         minimumReleaseAge: null,
       },
     ],
