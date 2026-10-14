@@ -27,18 +27,21 @@ pnpm change                             # write a change file
 
 ## Release
 
-Beachball versions `@langri-sha/babel-preset` and the Release workflow publishes
-it through npm trusted publishing. Anything that reaches its tarball or builds
-it — `packages/babel-preset/src/`, its readme, `package.json` and
-`tsconfig.build.json` — needs a change file in the same pull request. babel-test
-is private, so beachball skips it and it never needs one.
+Beachball versions `@langri-sha/babel-preset`. Anything that reaches its tarball
+or builds it — `packages/babel-preset/src/`, its readme, `package.json` and
+`tsconfig.build.json` — needs a change file in the same pull request: run
+`pnpm change`. Use `none` for edits that shouldn't cut a release on their own,
+such as readme-only changes. babel-test and the workspace root are private, so
+beachball skips them and they never need one. On Renovate pull requests that
+touch babel-preset, CI writes a `patch` change file itself.
 
-The Release workflow calls the shared Packages workflow with
-`tag-template: v{version}`, which tags each published version, e.g. `v0.6.8`,
-and `github-releases: true`, which creates a GitHub release with generated notes
-for it. Only babel-preset publishes, so its version alone names the tag; the
+Nothing publishes on merge. Run the Release workflow (`publish.yml`) from the
+Actions tab to publish the pending change files through npm trusted publishing.
+It tags the version `v<version>` and creates a GitHub release with generated
+notes; a tag that already has a release is skipped, so the workflow is safe to
+rerun. Only babel-preset publishes, so its version alone names the tag; the
 workflow skips private packages. Beachball's own `gitTags` stays off, since it
-would name the tags `@langri-sha/babel-preset_v0.6.8`.
+would name the tags `@langri-sha/babel-preset_v<version>`.
 
 `main` points at `src/index.js` in the repository, and `publishConfig` swaps
 `main` and `types` for `dist/`, which `prepublishOnly` builds. The tarball ships
