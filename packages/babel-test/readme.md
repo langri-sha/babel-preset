@@ -10,7 +10,7 @@ Provides convenience helpers for inspecting and testing your [Babel] preset.
 ## Usage
 
 It is private to this workspace, where `@langri-sha/babel-preset` takes it as
-`workspace:*`, and no longer published to npm.
+`workspace:*`.
 
 Load the preset plugins:
 
