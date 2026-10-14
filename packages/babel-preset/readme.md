@@ -1,11 +1,11 @@
 # @langri-sha/babel-preset
 
-This is Babel preset that suitable for targetting modern browsers and runtimes,
-with support for [TypeScript], [Emotion] and [React].
+This is a Babel preset suitable for targeting modern browsers and runtimes, with
+support for [TypeScript], [Emotion] and [React].
 
 ## Usage
 
-Install the preset and it's realted dependencies:
+Install the preset and its related dependencies:
 
 ```sh
 npm install -D @babel/core @langri-sha/babel-preset
