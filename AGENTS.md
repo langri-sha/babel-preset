@@ -6,15 +6,13 @@ helpers its tests run on.
 
 ## Who owns which file
 
-| Owner                                   | Files                                                                                                                                                                                                                                           |
-| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Projen (`.projenrc.ts` → `pnpm projen`) | every `package.json`, `.projen/`, `tsconfig*.json`, `pnpm-workspace.yaml`, `renovate.json5`, `beachball.config.cjs`, the ESLint, Prettier and lint-staged configs, `.husky/`, the ignore and attribute files, `CODEOWNERS`, the `license` files |
-| Beachball                               | `CHANGELOG.md`, `CHANGELOG.json` and the `version` field of each package                                                                                                                                                                        |
-| You                                     | `packages/*/src/**`, the readmes, `.github/workflows/`, this file                                                                                                                                                                               |
-
-Synthesized files are read-only; change them in `.projenrc.ts`. Repository
-settings, branch protection and the Actions secrets are managed by
-`langri-sha/github-repos`.
+Projen writes every `package.json` and every file listed in a
+`.projen/files.json`, at the root and in each package; they are read-only.
+Change them in `.projenrc.ts`, then run `pnpm exec projen`. Beachball owns
+`CHANGELOG.md`, `CHANGELOG.json` and the `version` field of each package.
+Everything else — `packages/*/src/`, the readmes, `.github/workflows/`, this
+file — is edited by hand. Repository settings, branch protection and the Actions
+secrets are managed by `langri-sha/github-repos`.
 
 ## Common tasks
 
