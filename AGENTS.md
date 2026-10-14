@@ -44,7 +44,7 @@ would name the tags `@langri-sha/babel-preset_v0.6.8`.
 
 `main` points at `src/index.js` in the repository, and `publishConfig` swaps
 `main` and `types` for `dist/`, which `prepublishOnly` builds. The tarball ships
-`src/` beside `dist/`, as every release from `langri-sha/projen` did.
+`src/` beside `dist/`, which the declaration maps point into.
 
 ## Dependencies
 
@@ -60,19 +60,3 @@ Vitest runs `packages/babel-test`'s own tests and the preset snapshot test in
 `packages/babel-preset/src/index.test.ts`, which loads the preset's plugins
 through `loadPresetPlugins`. Its snapshots live in
 `packages/babel-preset/src/__snapshots__/`.
-
-## Provenance
-
-Extracted from `langri-sha/projen` at `6417104d` on 2026-10-01 with
-`git filter-repo --path packages/babel-preset/ --path packages/babel-test/ --path packages/babel-helpers/`,
-keeping the `packages/` layout. All 192 commits that touched them keep their
-trees, authorship, dates and messages. babel-preset's history reaches back to
-2021-07-13. babel-test started on 2024-04-14 as `packages/babel-helpers` and was
-renamed two days later; `git log --follow` wanders off across that rename, so
-ask for the old path by name: `git log -- packages/babel-helpers`. Both started
-in `langri-sha/langri-sha.com`, which handed them to projen in August 2026.
-Issue and pull request numbers in older messages refer to the two source
-repositories.
-
-Up to 0.7.6, babel-test was published as `@langri-sha/babel-test`, which is
-deprecated.
