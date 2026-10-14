@@ -43,8 +43,8 @@ rerun. Only babel-preset publishes, so its version alone names the tag; the
 workflow skips private packages. Beachball's own `gitTags` stays off, since it
 would name the tags `@langri-sha/babel-preset_v<version>`.
 
-`main` points at `src/index.js` in the repository, and `publishConfig` swaps
-`main` and `types` for `dist/`, which `prepublishOnly` builds. The tarball ships
+`main` points at `src/index.js` in the repository, and `publishConfig` points
+`main` and `types` at `dist/`, which `prepublishOnly` builds. The tarball ships
 `src/` beside `dist/`, which the declaration maps point into.
 
 ## Dependencies
