@@ -25,6 +25,12 @@ pnpm eslint . && pnpm prettier --check .
 pnpm change                             # write a change file
 ```
 
+CI (`workspace.yml` → `langri-sha/github` `check.yml`) runs ESLint, Prettier,
+the `package.json` checks, `tsc --build`, Vitest and, on pull requests,
+`beachball check`. It fails when synthesized files drift from `.projenrc.ts` or
+babel-preset lacks a change file. On Renovate pull requests it re-synthesizes,
+updates the snapshots and commits the result.
+
 ## Release
 
 Beachball versions `@langri-sha/babel-preset`. Anything that reaches its tarball
