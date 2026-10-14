@@ -40,7 +40,13 @@ module.exports = {
 
 - [Using Babel]
 
+## Contributing
+
+See [CONTRIBUTING.md] in `langri-sha/github`.
+
 [`babel-loader`]: https://www.npmjs.com/package/babel-loader
+[contributing.md]:
+  https://github.com/langri-sha/github/blob/main/CONTRIBUTING.md
 [emotion]: https://emotion.sh/docs/babel
 [react]: https://react.dev/learn
 [typescript]:
