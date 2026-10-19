@@ -82,7 +82,7 @@ const project = new Project({
 })
 
 project.package?.addField('private', true)
-project.package?.addField('packageManager', 'pnpm@12.13.0')
+project.package?.addField('packageManager', 'pnpm@12.14.0')
 
 const subproject = (project: Project) => {
   project.package?.addField('repository', {
