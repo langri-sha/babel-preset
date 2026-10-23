@@ -41,6 +41,11 @@ const project = new Project({
       ignorePatterns: ['.gitignore', 'tsconfig.json', '**/.projen/**'],
     },
   },
+  claude: {
+    settings: {
+      attribution: { commit: '', pr: '', sessionUrl: false },
+    },
+  },
   codeowners: {
     '*': '@langri-sha',
   },
