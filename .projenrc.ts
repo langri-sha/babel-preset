@@ -22,7 +22,7 @@ const project = new Project({
     ...pkg,
     copyrightYear: '2021',
     homepage: 'https://github.com/langri-sha/babel-preset',
-    minNodeVersion: '24.16.0',
+    minNodeVersion: '24.22.1',
     repository: 'langri-sha/babel-preset',
     type: 'module',
 
