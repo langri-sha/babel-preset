@@ -21,7 +21,7 @@
   "main": "src/index.ts",
   "scripts": {},
   "dependencies": {
-    "monorepo-resolve": "1.0.1",
+    "monorepo-resolve": "1.1.0",
     "ramda": "0.32.0"
   },
   "devDependencies": {
