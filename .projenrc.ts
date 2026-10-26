@@ -151,7 +151,7 @@ project.addSubproject(
         '@emotion/babel-plugin@11.13.5',
       ],
       devDeps: [
-        '@babel/core@8.0.7',
+        '@babel/core@8.0.9',
         '@langri-sha/babel-test@workspace:*',
         '@langri-sha/tsconfig@1.1.1',
         '@types/node@24.19.2',
@@ -178,7 +178,7 @@ project.addSubproject(
       type: 'module',
       deps: ['monorepo-resolve@1.1.0', 'ramda@0.32.0'],
       devDeps: [
-        '@babel/core@8.0.7',
+        '@babel/core@8.0.9',
         '@langri-sha/tsconfig@1.1.1',
         '@types/node@24.19.2',
         '@types/ramda@0.32.0',
