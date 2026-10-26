@@ -30,7 +30,7 @@
     "@emotion/babel-plugin": "11.13.5"
   },
   "devDependencies": {
-    "@babel/core": "8.0.7",
+    "@babel/core": "8.0.9",
     "@langri-sha/babel-test": "workspace:*",
     "@langri-sha/tsconfig": "1.1.1",
     "@langri-sha/vitest": "0.2.3",
