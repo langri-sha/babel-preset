@@ -85,6 +85,16 @@ const project = new Project({
   },
   typeScriptConfig: {},
   worktrunk: {},
+  skills: {
+    ignore: false,
+    skills: [
+      {
+        source: 'langri-sha/skills',
+        ref: 'c0cb19cc68f9c597ac580c0e415bf99dcb69d3fd',
+        skills: ['create-commit', 'create-pr'],
+      },
+    ],
+  },
 })
 
 project.package?.addField('private', true)
