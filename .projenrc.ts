@@ -109,7 +109,6 @@ const subproject = (project: Project) => {
 }
 
 const test = (project: Project) => {
-  project.npmIgnore?.exclude('*.test.*', '__snapshots__/')
   project.package?.addDevDeps('@langri-sha/vitest@0.2.3')
 }
 
@@ -139,6 +138,7 @@ project.addSubproject(
     name: '@langri-sha/babel-preset',
     outdir: path.join('packages', 'babel-preset'),
     npmIgnore: {},
+    vitest: true,
     readme: {
       filename: 'readme.md',
     },
