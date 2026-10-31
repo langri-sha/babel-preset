@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "Fix typos in the readme",
-  "packageName": "@langri-sha/babel-preset",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "none"
-}
