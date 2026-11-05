@@ -6,5 +6,8 @@
     {
       "path": "../babel-test"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "types": ["node"]
+  }
 }
