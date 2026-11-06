@@ -28,7 +28,7 @@ const project = new Project({
 
     devDeps: [
       '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@2.0.0',
+      '@langri-sha/tsconfig@3.0.0',
       '@types/node@24.19.2',
     ],
   },
@@ -160,7 +160,7 @@ project.addSubproject(
       devDeps: [
         '@babel/core@8.1.0',
         '@langri-sha/babel-test@workspace:*',
-        '@langri-sha/tsconfig@2.0.0',
+        '@langri-sha/tsconfig@3.0.0',
         '@types/node@24.19.2',
       ],
       peerDeps: ['@babel/core@^8.0.0'],
@@ -186,7 +186,7 @@ project.addSubproject(
       deps: ['monorepo-resolve@1.1.1', 'ramda@0.32.0'],
       devDeps: [
         '@babel/core@8.1.0',
-        '@langri-sha/tsconfig@2.0.0',
+        '@langri-sha/tsconfig@3.0.0',
         '@types/node@24.19.2',
         '@types/ramda@0.32.0',
       ],
