@@ -124,6 +124,9 @@ const publish = (project: Project) => {
     config: {
       extends: '@langri-sha/tsconfig/build',
       exclude: ['**/*.test.*'],
+      compilerOptions: {
+        moduleDetection: 'auto',
+      },
     },
   })
 

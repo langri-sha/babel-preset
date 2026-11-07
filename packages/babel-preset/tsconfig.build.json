@@ -4,6 +4,7 @@
   "extends": "@langri-sha/tsconfig/build",
   "exclude": ["**/*.test.*"],
   "compilerOptions": {
+    "moduleDetection": "auto",
     "types": ["node"]
   }
 }
