@@ -157,11 +157,11 @@ project.addSubproject(
         '@babel/preset-env@8.0.7',
         '@babel/preset-react@8.0.1',
         '@babel/preset-typescript@8.0.7',
-        '@babel/register@8.0.6',
+        '@babel/register@8.1.2',
         '@emotion/babel-plugin@11.13.5',
       ],
       devDeps: [
-        '@babel/core@8.1.0',
+        '@babel/core@8.1.2',
         '@langri-sha/babel-test@workspace:*',
         '@langri-sha/tsconfig@3.0.0',
         '@types/node@24.19.2',
@@ -188,7 +188,7 @@ project.addSubproject(
       type: 'module',
       deps: ['monorepo-resolve@1.1.1', 'ramda@0.32.0'],
       devDeps: [
-        '@babel/core@8.1.0',
+        '@babel/core@8.1.2',
         '@langri-sha/tsconfig@3.0.0',
         '@types/node@24.19.2',
         '@types/ramda@0.32.0',
