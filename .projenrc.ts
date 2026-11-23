@@ -153,7 +153,7 @@ project.addSubproject(
         'Babel preset for modern browsers and runtimes, with support for TypeScript, Emotion and React.',
       entrypoint: 'src/index.js',
       deps: [
-        '@babel/plugin-proposal-export-default-from@8.0.1',
+        '@babel/plugin-proposal-export-default-from@8.1.3',
         '@babel/preset-env@8.0.7',
         '@babel/preset-react@8.0.1',
         '@babel/preset-typescript@8.0.7',
@@ -161,7 +161,7 @@ project.addSubproject(
         '@emotion/babel-plugin@11.13.5',
       ],
       devDeps: [
-        '@babel/core@8.1.2',
+        '@babel/core@8.1.3',
         '@langri-sha/babel-test@workspace:*',
         '@langri-sha/tsconfig@3.0.0',
         '@types/node@24.19.2',
@@ -188,7 +188,7 @@ project.addSubproject(
       type: 'module',
       deps: ['monorepo-resolve@1.1.1', 'ramda@0.32.0'],
       devDeps: [
-        '@babel/core@8.1.2',
+        '@babel/core@8.1.3',
         '@langri-sha/tsconfig@3.0.0',
         '@types/node@24.19.2',
         '@types/ramda@0.32.0',
