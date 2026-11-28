@@ -29,7 +29,7 @@ const project = new Project({
     devDeps: [
       '@langri-sha/projen-project@*',
       '@langri-sha/tsconfig@3.0.0',
-      '@types/node@24.19.2',
+      '@types/node@24.19.3',
     ],
   },
   beachball: {
@@ -164,7 +164,7 @@ project.addSubproject(
         '@babel/core@8.1.3',
         '@langri-sha/babel-test@workspace:*',
         '@langri-sha/tsconfig@3.0.0',
-        '@types/node@24.19.2',
+        '@types/node@24.19.3',
       ],
       peerDeps: ['@babel/core@^8.0.0'],
     },
@@ -190,7 +190,7 @@ project.addSubproject(
       devDeps: [
         '@babel/core@8.1.3',
         '@langri-sha/tsconfig@3.0.0',
-        '@types/node@24.19.2',
+        '@types/node@24.19.3',
         '@types/ramda@0.32.0',
       ],
       peerDeps: ['@babel/core@^8.0.0'],
