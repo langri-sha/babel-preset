@@ -28,7 +28,7 @@
     "@babel/core": "8.1.3",
     "@langri-sha/tsconfig": "3.0.0",
     "@langri-sha/vitest": "0.2.3",
-    "@types/node": "24.19.2",
+    "@types/node": "24.19.3",
     "@types/ramda": "0.32.0"
   },
   "peerDependencies": {
